@@ -4,3 +4,6 @@ from django.http import HttpResponse
 
 def home_control(request):
     return HttpResponse("Hello Bro! How are you?")
+
+def hello_menu(request):
+    return HttpResponse("Nma gap b*tch")
